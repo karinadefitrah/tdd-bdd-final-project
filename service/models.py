@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+
 """
 Models for Product Demo Service
 
@@ -33,6 +35,7 @@ from enum import Enum
 from decimal import Decimal
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+
 
 logger = logging.getLogger("flask.app")
 
